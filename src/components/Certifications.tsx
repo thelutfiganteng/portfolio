@@ -41,7 +41,7 @@ const Certifications = () => {
       badgeColor: "bg-pastel-blue",
       category: "Technology",
       image: "public/redesign.jpg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635547635156/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const Certifications = () => {
       badgeColor: "bg-pastel-pink",
       category: "Media",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1742615240976/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 3,
@@ -63,7 +63,7 @@ const Certifications = () => {
       badgeColor: "bg-pastel-mint",
       category: "Finance",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635547638119/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 4,
@@ -74,7 +74,7 @@ const Certifications = () => {
       badgeColor: "bg-pastel-lavender",
       category: "Technology",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635555463296/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 5,
@@ -85,7 +85,7 @@ const Certifications = () => {
       badgeColor: "bg-pastel-orange",
       category: "Technology",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1742615388721/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     }
   ];
 

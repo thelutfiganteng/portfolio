@@ -70,7 +70,7 @@ const Achievements = () => {
       description: "Professional certification in mobile application development focusing on industry-standard practices and methodologies.",
       category: "Technology",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635547635156/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 2,
@@ -80,7 +80,7 @@ const Achievements = () => {
       description: "Certification in content creation, covering strategic planning, production, and distribution across digital platforms.",
       category: "Media",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1742615240976/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 3,
@@ -90,7 +90,7 @@ const Achievements = () => {
       description: "Professional certification in financial accounting, covering financial reporting, analysis, and management techniques.",
       category: "Finance",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635547638119/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 4,
@@ -100,7 +100,7 @@ const Achievements = () => {
       description: "Earning a Cloud Computing Certification demonstrates expertise in cloud architecture, security, deployment, and management across platforms.",
       category: "Technology",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1635555463296/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     },
     {
       id: 5,
@@ -110,7 +110,7 @@ const Achievements = () => {
       description: "The Digital Entrepreneurship Certification validates expertise in online business strategies, digital marketing, e-commerce, and innovation-driven entrepreneurship.",
       category: "Technology",
       image: "/placeholder.svg",
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/1742615388721/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/certifications/"
     }
   ];
 
@@ -125,7 +125,7 @@ const Achievements = () => {
       category: "Entrepreneurship",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1711290791406/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     },
     {
       id: 2,
@@ -137,7 +137,7 @@ const Achievements = () => {
       category: "Entrepreneurship",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1711290728123/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     },
     {
       id: 3,
@@ -149,7 +149,7 @@ const Achievements = () => {
       category: "Photography",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1319647043/multiple-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps&treasuryMediaId=1711290693494"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     },
     {
       id: 4,
@@ -161,7 +161,7 @@ const Achievements = () => {
       category: "Accounting",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1711290835681/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     },
     {
       id: 5,
@@ -173,7 +173,7 @@ const Achievements = () => {
       category: "Entrepreneurship",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1739258090233/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     },
     {
       id: 6,
@@ -185,7 +185,7 @@ const Achievements = () => {
       category: "Entrepreneurship",
       image: "/placeholder.svg",
       team: ["Lutfi Kurniawan"],
-      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/1742616886656/single-media-viewer/?profileId=ACoAAD1WBxwBtQhysmtE-8hmcYOYAUOdVhJcOps"
+      link: "https://www.linkedin.com/in/muhammad-lutfi-kurniawan-b38761248/details/honors/"
     }
   ];
 
