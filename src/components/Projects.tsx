@@ -2,6 +2,12 @@
 import { useEffect, useRef } from 'react';
 import ProjectCard from './ProjectCard';
 import AnimatedText from './AnimatedText';
+import crm from "../assets/crm.jpg";
+import inventoryManagement from "../assets/InventoryManagement.jpg";
+import trackingTrash from "../assets/trackingTrash.jpg";
+import loanManagement from "../assets/loanManagement.jpg";
+import DesignJersey from "../assets/DesignJersey.png";
+import redesign from "../assets/redesign.jpg";
 
 const Projects = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -10,7 +16,7 @@ const Projects = () => {
     {
       title: 'Modern E-commerce Platform with AI Agent CRM System',
       description: 'Modern e-commerce platform integrates an advanced AI-powered CRM system, revolutionizing customer engagement and business operations.',
-      image: 'public/crm.jpg',
+      image: crm,
       tags: ['React', 'Node.js', 'Laravel', 'Livewire', 'AI'],
       // liveUrl: '#',
       // githubUrl: '#',
@@ -28,7 +34,7 @@ const Projects = () => {
     {
       title: 'Inventory Management with Stocks AI',
       description: 'AI-powered Inventory Management System optimizes stock control with real-time tracking, demand forecasting, and automated restocking.',
-      image: 'public/InventoryManagement.jpg',
+      image: inventoryManagement,
       tags: ['React', 'Livewire', 'AI'],
       // liveUrl: '#',
       // githubUrl: '#',
@@ -37,7 +43,7 @@ const Projects = () => {
     {
       title: 'App Tracking Trash',
       description: 'Our smart waste tracking app leverages real-time monitoring and AI-driven analytics to optimize waste collection and management. With GPS tracking, data visualization, and smart notifications.',
-      image: 'public/trackingTrash.jpg',
+      image: trackingTrash,
       tags: ['JavaScript', 'Maps API', 'CSS'],
       // liveUrl: '#',
       // githubUrl: '#',
@@ -46,7 +52,7 @@ const Projects = () => {
     {
       title: 'Management Loan System and Tracking Dokument with IOT',
       description: 'Our Management Loan System integrates IoT-powered document tracking to streamline loan processing, enhance security, and improve efficiency. With real-time tracking, automated workflows, and smart notifications.',
-      image: 'public/loanManagement.jpg',
+      image: loanManagement,
       tags: ['React Native', 'API Integration', 'IOT'],
       // liveUrl: '#',
       // githubUrl: '#',
@@ -55,7 +61,7 @@ const Projects = () => {
     {
       title: 'Modern Design Institution System Management',
       description: 'With an intuitive UI/UX, AI-driven analytics, and cloud-based infrastructure, institutions can enhance operational efficiency, automate administrative tasks, and provide a seamless learning experience.',
-      image: 'public/redesign.jpg',
+      image: redesign,
       tags: ['React', 'CSS', 'Node JS'],
       // liveUrl: '#',
       // githubUrl: '#',
@@ -64,7 +70,7 @@ const Projects = () => {
     {
       title: 'Jersey Design',
       description: 'Custom jersey design service combines creativity, innovation, and high-quality materials to deliver unique and performance-driven apparel.',
-      image: 'public/DesignJersey.png',
+      image: DesignJersey,
       tags: ['Adobe Photoshop', 'Illustration', 'Canva'],
       // liveUrl: '#',
       // githubUrl: '#',

@@ -2,6 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { Heart, Star, Zap } from 'lucide-react';
 import AnimatedText from './AnimatedText';
+import profileImage from '../assets/photo.jpg';
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -46,7 +47,7 @@ const About = () => {
             <div className="absolute -inset-4 bg-gradient-to-r from-pastel-lavender via-pastel-blue to-pastel-mint opacity-30 blur-xl"></div>
             <div className="relative aspect-square overflow-hidden rounded-3xl shadow-xl">
               <img 
-                src="public/photo.jpg" 
+                src={profileImage} 
                 alt="Portrait" 
                 className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
               />

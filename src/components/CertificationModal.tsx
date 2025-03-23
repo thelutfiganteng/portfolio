@@ -1,3 +1,8 @@
+import mobileDev from "../assets/mobileDev.jpg";
+import contentCreator from "../assets/contentCreator.jpg";
+import accounting from "../assets/accounting.jpg";
+import aws from "../assets/aws.jpg";
+import digitalMarketing from "../assets/digitalmarketing.jpg";
 
 import {
   Dialog,
@@ -30,11 +35,11 @@ interface CertificationModalProps {
 
 // Dummy certificate images for visual enhancement
 const certificateImages = [
-  "public/mobileDev.jpg",
-  "public/contentCreator.jpg",
-  "public/accounting.jpg",
-  "public/aws.jpg",
-  "public/digitalmarketing.jpg"
+  mobileDev,
+  contentCreator,
+  accounting,
+  aws,
+  digitalMarketing
 ];
 
 const CertificationModal = ({
