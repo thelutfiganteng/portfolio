@@ -43,7 +43,7 @@ const Projects = () => {
       description: 'AI-powered Inventory Management System optimizes stock control with real-time tracking, demand forecasting, and automated restocking.',
       image: inventoryManagement,
       tags: ['React', 'Livewire', 'AI'],
-      demoVideoUrl: 'https://youtu.be/E87hs4cEXCs?si=WqizX4IY2gOnJlln',
+      demoVideoUrl: 'https://www.youtube.com/watch?v=E87hs4cEXCs',
       // liveUrl: '#',
       // githubUrl: '#',
       featured: false,
