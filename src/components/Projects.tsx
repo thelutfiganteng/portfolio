@@ -8,6 +8,7 @@ import inventoryManagement from "../assets/InventoryManagement.jpg";
 import trackingTrash from "../assets/trackingTrash.jpg";
 import loanManagement from "../assets/loanManagement.jpg";
 import DesignJersey from "../assets/DesignJersey.png";
+import trading from "../assets/trading.png";
 import redesign from "../assets/redesign.jpg";
 
 const Projects = () => {
@@ -31,9 +32,9 @@ const Projects = () => {
     {
       title: 'Trading Line App',
       description: 'Trading Line App – Harness AI to Make Smarter, Faster, and More Profitable Trades.',
-      image: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2055&auto=format&fit=crop',
+      image: trading,
       tags: ['React', 'Tailwind CSS', 'Chart System'],
-      demoVideoUrl: 'https://www.youtube.com/watch?v=E87hs4cEXCs',
+      demoVideoUrl: 'https://youtube.com/embed/KUHRIlCHcuM',
       // liveUrl: '#',
       // githubUrl: '#',
       featured: false,
@@ -43,7 +44,7 @@ const Projects = () => {
       description: 'AI-powered Inventory Management System optimizes stock control with real-time tracking, demand forecasting, and automated restocking.',
       image: inventoryManagement,
       tags: ['React', 'Livewire', 'AI'],
-      demoVideoUrl: 'https://www.youtube.com/watch?v=E87hs4cEXCs',
+      demoVideoUrl: 'https://youtube.com/embed/E87hs4cEXCs',
       // liveUrl: '#',
       // githubUrl: '#',
       featured: false,
