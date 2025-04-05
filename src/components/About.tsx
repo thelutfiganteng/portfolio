@@ -81,22 +81,22 @@ const About = () => {
             <div className="space-y-4 mb-8 text-muted-foreground">
               <p className="reveal">
                 <AnimatedText 
-                  text="I'm Muhammad Lutfi Kurniawan, a passionate web developer and designer with a strong focus on creating beautiful, functional, and user-friendly websites and applications."
+                  text="I'm Muhammad Lutfi Kurniawan, I have been recognized as a Bank Indonesia Scholarship Awardee for Outstanding Students, a passionate web developer and designer with a strong focus on integrating Artificial Intelligence to create intelligent, user-friendly, and high-performing websites and applications."
                   delay={300}
                 />
               </p>
               <p className="reveal">
                 <AnimatedText 
-                  text="As a student at Politeknik Negeri Sriwijaya, majoring in Informatics, I have been recognized as a Bank Indonesia Scholarship Awardee for Outstanding Students, reflecting my dedication to academic excellence and innovation."
+                  text="With 3+ years of experience, I specialize in AI-driven front-end development, leveraging modern technologies like React, Livewire, and Tailwind CSS, while incorporating AI-powered automation, personalization, and analytics. I thrive on creative projects, using AI to enhance user experiences, optimize performance, and bring intelligent solutions to life. 🚀🤖🎨"
                   delay={400}
                 />
               </p>
-              <p className="reveal">
+              {/* <p className="reveal">
                 <AnimatedText 
                   text="With 3+ years of experience, I specialize in front-end development using modern technologies like React, Livewire, and Tailwind CSS. I thrive on creative projects, bringing ideas to life through clean code and thoughtful design, ensuring seamless user experiences and aesthetic appeal. 🚀🎨"
                   delay={500}
                 />
-              </p>
+              </p> */}
             </div>
             
             {/* Stats */}

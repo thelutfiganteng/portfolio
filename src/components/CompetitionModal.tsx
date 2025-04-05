@@ -1,3 +1,9 @@
+import perbanas from "../assets/perbanas.png";
+import asean from "../assets/AseanBusiness.png";
+import lcta from "../assets/lcta.jpg";
+import photography from "../assets/photography.jpeg";
+import bestInnovation from "../assets/BestInnovation.jpg";
+import ecoproduct from "../assets/ecoproduct.jpeg";
 
 import {
   Dialog,
@@ -32,11 +38,12 @@ interface CompetitionModalProps {
 
 // Dummy competition images for visual enhancement
 const competitionImages = [
-  "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+  perbanas,
+  asean,
+  photography,
+  lcta,
+  ecoproduct,
+  bestInnovation,
 ];
 
 const CompetitionModal = ({

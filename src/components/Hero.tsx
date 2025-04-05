@@ -47,13 +47,13 @@ const Hero = () => {
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight animate-fade-in">
             <AnimatedText 
-              text="Crafting beautiful digital" 
+              text="Passionately crafting" 
               tag="span" 
               className="block" 
               delay={500} 
             />
             <AnimatedText 
-              text="experiences with passion" 
+              text="beautiful digital experiences with a fully digital approach" 
               tag="span" 
               className="block text-gradient" 
               delay={700} 
@@ -62,7 +62,7 @@ const Hero = () => {
           
           <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10 animate-fade-in">
             <AnimatedText 
-              text="I design and develop modern, clean, and user-friendly websites and applications that help businesses grow and succeed."
+              text="I create modern websites and applications, maximizing the power of Artificial Intelligence to drive business growth and success."
               delay={900}
             />
           </p>

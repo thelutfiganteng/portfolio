@@ -1,6 +1,6 @@
 
 import { useState, useRef, useEffect } from 'react';
-import { ArrowUpRight, Github } from 'lucide-react';
+import { ArrowUpRight, Github, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface ProjectCardProps {
@@ -10,8 +10,10 @@ interface ProjectCardProps {
   tags: string[];
   liveUrl?: string;
   githubUrl?: string;
+  demoVideoUrl?: string;
   featured?: boolean;
   index: number;
+  onWatchDemo?: (videoUrl: string, title: string) => void;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -21,8 +23,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   tags,
   liveUrl,
   githubUrl,
+  demoVideoUrl,
   featured = false,
   index,
+  onWatchDemo,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -53,6 +57,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       }
     };
   }, [delay]);
+
+  const handleWatchDemo = () => {
+    if (demoVideoUrl && onWatchDemo) {
+      onWatchDemo(demoVideoUrl, title);
+    }
+  };
 
   return (
     <div
@@ -126,6 +136,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             opacity: isHovered ? 1 : 0,
           }}
         >
+          {demoVideoUrl && (
+            <button
+              onClick={handleWatchDemo}
+              className="inline-flex items-center gap-1.5 text-sm font-medium px-4 py-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
+            >
+              <Play size={16} /> Watch Demo
+            </button>
+          )}
+
           {liveUrl && (
             <a
               href={liveUrl}
