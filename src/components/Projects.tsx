@@ -24,7 +24,7 @@ const Projects = () => {
       description: 'Modern platform integrates an advanced AI-powered CRM system, revolutionizing customer engagement and business operations.',
       image: crm,
       tags: ['React', 'Node.js', 'Laravel', 'Livewire', 'AI'],
-      demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      demoVideoUrl: 'https://www.youtube.com/embed/wIIJeslbjnM',
       // liveUrl: '#',
       // githubUrl: '#',
       featured: true,
