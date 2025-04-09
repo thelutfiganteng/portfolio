@@ -20,7 +20,7 @@ const Projects = () => {
   });
   const projects = [
     {
-      title: 'Modern Platform with AI Agent CRM System',
+      title: 'Platform with AI Agent CRM System for Customer Service 24H',
       description: 'Modern platform integrates an advanced AI-powered CRM system, revolutionizing customer engagement and business operations.',
       image: crm,
       tags: ['React', 'Node.js', 'Laravel', 'Livewire', 'AI'],
