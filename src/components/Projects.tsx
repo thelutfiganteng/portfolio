@@ -5,7 +5,7 @@ import AnimatedText from './AnimatedText';
 import VideoModal from './VideoModal';
 import crm from "../assets/crm.jpg";
 import inventoryManagement from "../assets/InventoryManagement.jpg";
-import trackingTrash from "../assets/trackingTrash.jpg";
+import realEstate from "../assets/realEstate.png";
 import loanManagement from "../assets/loanManagement.jpg";
 import DesignJersey from "../assets/DesignJersey.png";
 import trading from "../assets/trading.png";
@@ -50,11 +50,11 @@ const Projects = () => {
       featured: false,
     },
     {
-      title: 'App Tracking Trash',
-      description: 'Our smart waste tracking app leverages real-time monitoring and AI-driven analytics to optimize waste collection and management. With GPS tracking, data visualization, and smart notifications.',
-      image: trackingTrash,
-      tags: ['JavaScript', 'Maps API', 'CSS'],
-      // demoVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      title: 'Marketing Website for Real Estate with Mortgage Calculator',
+      description: 'This website features a sleek design, an intuitive property catalog, and a powerful Mortgage Calculator that helps potential buyers easily estimate their monthly home loan payments.',
+      image: realEstate,
+      tags: ['JavaScript', 'React', 'CSS'],
+      demoVideoUrl: 'https://www.youtube.com/embed/AZTGx0xk9GI',
       // liveUrl: '#',
       // githubUrl: '#',
       featured: false,
