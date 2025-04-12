@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { Heart, Star, Zap } from 'lucide-react';
 import AnimatedText from './AnimatedText';
-import profileImage from '../assets/photo.jpg';
+import profileImage from '../assets/photo.jpeg';
 
 const About = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
